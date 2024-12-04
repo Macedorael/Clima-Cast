@@ -1,7 +1,5 @@
-<img src="./src/public/assets/images/bannerlogo.bmp" align="left" height="64px" /><br><br>
 # Programa de Bolsas Junho/2024
 
-# Grupo4 - Sprint 2/3
 
 ## Índice
 1. [Projeto CLIMA Cast](#titulo)
@@ -40,7 +38,7 @@
 7. [Pontos Fortes](#forcas)
 8. [Oprotunidades de Melhoria](#melhorias)
 9. [Manual de Uso da Aplicação *Clima Cast*](#aplicacao)
-10. [Autores](#autores)
+10. [Autor](#autor)
 
 ## Projeto *CLIMA Cast*<a name="titulo"></a>
 
