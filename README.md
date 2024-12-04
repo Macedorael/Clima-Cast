@@ -295,9 +295,9 @@ O `container`do **Docker** é carregado em uma instância **EC2** que é executa
 11. Acesse a sua instância utilizando a console do EC2 (ver figuras abaixo) e execute a Carga do Container, conforme descrito a seguir.
 
 <div align="center">
-<img src="./src/public/assets/images/consoleEC2
+<img src="src/public/assets/images/consoleEC2
 .png" align="justify"/>
-<img src="./src/public/assets/images/consoleAMIEC2
+<img src="src/public/assets/images/consoleAMIEC2
 .png" align="justify"/>
 
 </div> 
