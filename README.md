@@ -34,11 +34,11 @@
             * [Conectar-se ao Ambiente Beanstalk](#conectarBeanstalk)
 
 
-6. [Dificuldades/Pontos Fracos](#fraquezas)
-7. [Pontos Fortes](#forcas)
-8. [Oprotunidades de Melhoria](#melhorias)
-9. [Manual de Uso da Aplicação *Clima Cast*](#aplicacao)
-10. [Autor](#autor)
+
+6. [Pontos Fortes](#forcas)
+7. [Oprotunidades de Melhoria](#melhorias)
+8. [Manual de Uso da Aplicação *Clima Cast*](#aplicacao)
+9. [Autor](#autor)
 
 ## Projeto *CLIMA Cast*<a name="titulo"></a>
 
@@ -295,9 +295,9 @@ O `container`do **Docker** é carregado em uma instância **EC2** que é executa
 11. Acesse a sua instância utilizando a console do EC2 (ver figuras abaixo) e execute a Carga do Container, conforme descrito a seguir.
 
 <div align="center">
-<img src="./src/public/assets/images/consoleEC2
+<img src="src/public/assets/images/consoleEC2
 .png" align="justify"/>
-<img src="./src/public/assets/images/consoleAMIEC2
+<img src="src/public/assets/images/consoleAMIEC2
 .png" align="justify"/>
 
 </div> 
@@ -343,7 +343,7 @@ ClimaCast pelo nome do seu repositório e imagem):
  A figura abaixo apresenta um esquemático desta implantação.
 
 <div align="center">
-<img src="./src/public/assets/images/ElasticBeanstalk.png" align="justify"/>
+<img src="src/public/assets/images/ElasticBeanstalk.png" align="justify"/>
 </div>
 
 ## Instalação Passo a Passo<a name="passoapassoBeanstalk"></a>
@@ -381,7 +381,7 @@ ClimaCast pelo nome do seu repositório e imagem):
     * Para o serviço EC2 utilizar as ilustradas abaixo.<br><br>
     
 <div align="center">
-<img src="./src/public/assets/images/iamec2
+<img src="src/public/assets/images/iamec2
 .png" align="justify"/>
 </div><br>  
 
@@ -407,7 +407,7 @@ ClimaCast pelo nome do seu repositório e imagem):
     Após clicar no *link* será exibida a tela da aplicação, ilustrada a seguir:<br><br>
     
 <div align="center">
-<img src="./src/public/assets/images/tela.png" align="justify"/>
+<img src="src/public/assets/images/tela.png" align="justify"/>
 </div><br>  
 
 **OBSERVAÇÃO IMPORTANTE:** Devido ao Custo mais elevado da solução *Beanstalk*, ela se encontra **desabilitada** e ficará disponível em ocasião próxima ao *agendamento* da apresentação por parte do Grupo.
@@ -419,30 +419,6 @@ No desenvolvimento deste **projeto** foram observadas algumas dificuldades relat
 * No *Back-end* a documentação da **API** estava bem detalhada, o que ajudou muito no desenvolvimento, se observando uma relativa dificuldade com relação à formatação da *data* retornada e também com a necessidade de se limitar o número de linhas retornadas;
 * Sem sombras de dúvidas, a configuração da *infraestrutura da Nuvem AWS* foi a que consumiu maior dedicação, principalmente, com relação à aplicação do **serviço** *Beanstalk*.
 
-## Pontos Fortes<a name="forcas"></a>
-
-A experiência da equipe foi muito boa e por isso temos muitos pontos a destacar:
-* Primeiro com relação à organização dos trabalhos foi utilizada a ferramenta de *métodos ágeis* denominada **Trello**. Abaixo esta exibida uma imagem extraída do **Trello**;  
-
-<div align="center">
-<img src="./src/public/assets/images/TRELLO.png" align="justify"/>
-</div>
-
-* <img src="./src/public/assets/images/pessoas.png" align="left" height="50px" />  **Liderança Compartilhada** foi uma marca observada na equipe. Não houve a imposição de um `Líder`; conforme a situação exigia, ocorria o surgimento de uma liderança natural com habilidades para conduzir os trabalhos e superar as dificuldades que se apresentavam. Outro quesito crucial com relação às pessoas se trata do alto grau de **empatia** observado, não se relatando nenhuma desavença, discussão acalorada e discórdia no seio da equipe;
-
-* <img src="./src/public/assets/images/autonomia.png" align="left" height="50px" />  Cada membro da equipe foi cioso e consciente do que o seu trabalho representava para os resultados do projeto;
-
-* <img src="./src/public/assets/images/persistencia.png" align="left" height="50px" />  Todo e qualquer problema e/ou dificuldade era abraçado pela equipe em um esforço conjunto para sua solução;
-
-* <img src="./src/public/assets/images/compartilhar.png" align="left" height="50px" />  O compartilhamento do conhecimento foi a tônica da equipe, inclusive estendendo este compartilhamento aos demais grupos conforme solicitação;
-
-* <img src="./src/public/assets/images/comunicar.png" align="left" height="50px" />  A comunicação durante o projeto foi farta, clara e objetiva. Através da *ferramenta* **Trello**, utilizando reuniões *online* e mesmo através de `Grupo de WhatsApp` a equipe manteve alto grau de comunicação, permitindo transparência de todas as atividades desenvolvidas e mantendo a equipe no mesmo nível de evolução do projeto;
-
-* <img src="./src/public/assets/images/foco.png" align="left" height="50px" />  O foco na disponibilização de uma ferramenta prática, operacional e funcional foi importqante para evoluir na busca de uma aplicação segura e contínua;
-
-* <img src="./src/public/assets/images/senso.png" align="left" height="50px" />  Em nenhum momento a equipe se descuidou com relação ao prazo estabelecido, sem contudo, pular etapas e/ou mesmo se utilizar de artifícios pouco técnicos para a solução das dificuldades apresentadas;
-
-* <img src="./src/public/assets/images/descomplicado.png" align="left" height="50px" />  Por fim, e não menos importante, a simplicidade sem perder a qualidade se tornou uma bandeira da equipe, em prol de uma solução eficiente, com custos controlados, factível de ser implementada, fácil para o usuário final e útil para todos.
 
 ## Oportunidades de Melhoria<a name="melhorias"></a>
 
