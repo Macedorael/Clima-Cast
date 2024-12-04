@@ -1,5 +1,8 @@
 const axios = require('axios');
 const moment = require('moment');
+require('dotenv').config();
+const apiKey = process.env.API_KEY;
+
 
 const descricaoEmPortugues = {
   "clear sky": "Céu limpo",
@@ -15,7 +18,7 @@ const descricaoEmPortugues = {
 
 async function obterPrevisao(cidade, bairro) {
   try {
-    const apiKey = '5030f75610c84ab3325fd152ad7fd932'; // Substitua pela sua chave válida
+    const apiKey = process.env.API_KEY; // Substitua pela sua chave válida
     const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${cidade},${bairro}&appid=${apiKey}&units=metric`;
 
     const response = await axios.get(apiUrl);
